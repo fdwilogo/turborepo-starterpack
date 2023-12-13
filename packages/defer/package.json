@@ -1,0 +1,8 @@
+{
+  "name": "defer",
+  "private": true,
+  "dependencies": {
+    "@defer/client": "^1.14.1",
+    "@repo/database": "workspace:*"
+  }
+}

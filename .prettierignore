@@ -1,0 +1,10 @@
+.yarn
+.next
+dist
+node_modules
+*.lock
+public
+*.svg
+.react-email
+pnpm-lock.yaml
+pmpn-workspace.yaml
