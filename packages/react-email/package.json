@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "dev": "email dev -p 8008",
-    "export": "email export"
+    "export": "email export",
+    "clean": "rm -rf .react-email node_modules"
   },
   "dependencies": {
     "@react-email/components": "0.0.12",
@@ -15,5 +16,6 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.45"
-  }
+  },
+  "packageManager": "pnpm@8.11.0"
 }

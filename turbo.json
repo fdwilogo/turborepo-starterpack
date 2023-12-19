@@ -1,7 +1,20 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
-  "globalEnv": ["NODE_ENV"],
+  "globalDependencies": ["**/.env"],
+  "globalEnv": [
+    "NODE_ENV",
+    "DATABASE_URL",
+    "NEXT_PUBLIC_CLERK_SIGN_IN_URL",
+    "NEXT_PUBLIC_CLERK_SIGN_UP_URL",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL",
+    "UPLOADTHING_SECRET",
+    "UPLOADTHING_APP_ID",
+    "RESEND_API_KEY",
+    "DEFER_TOKEN",
+    "NEXT_PUBLIC_SISWA_URL",
+    "NEXT_PUBLIC_ADMIN_URL"
+  ],
   "pipeline": {
     "build": {
       "dependsOn": ["^build", "^db:generate"],

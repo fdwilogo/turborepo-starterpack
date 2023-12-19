@@ -10,7 +10,9 @@
     "db:push": "turbo run db:push",
     "dev": "turbo dev --filter=!react-email-client",
     "lint": "turbo lint --filter=!react-email-client",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "rm -rf node_modules",
+    "clean:workspaces": "turbo clean"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
@@ -18,11 +20,13 @@
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vercel/style-guide": "^5.1.0",
+    "dotenv-cli": "^7.3.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-turbo": "^1.11.2",
     "eslint-plugin-only-warn": "^1.1.0",
     "next": "^14.0.4",
     "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
     "styled-jsx": "^5.1.2",
     "turbo": "latest",
     "typescript": "^5.3.3"
