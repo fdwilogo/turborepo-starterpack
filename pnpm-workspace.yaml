@@ -1,4 +1,4 @@
 packages:
   - 'apps/*'
-  - 'packages/transactional/.react-email'
+  - 'packages/react-email/.react-email'
   - 'packages/*'
