@@ -1,3 +1,5 @@
+'use client'
+
 import useEmblaCarousel, {
   type EmblaCarouselType as CarouselApi,
   type EmblaOptionsType as CarouselOptions,
