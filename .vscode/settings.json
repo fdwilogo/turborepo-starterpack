@@ -3,5 +3,10 @@
     {
       "mode": "auto"
     }
+  ],
+  "vsicons.associations.folders": [
+    { "icon": "view", "extensions": ["react-email"], "format": "svg" },
+    { "icon": "component", "extensions": ["web-ui"], "format": "svg" },
+    { "icon": "bloc", "extensions": ["defer"], "format": "svg" }
   ]
 }
