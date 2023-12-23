@@ -3,6 +3,10 @@
   "private": true,
   "dependencies": {
     "@defer/client": "^1.14.1",
-    "@repo/database": "workspace:*"
+    "@repo/database": "workspace:*",
+    "@repo/react-email": "workspace:*",
+    "@types/react": "^18.2.45",
+    "react": "^18.2.0",
+    "resend": "^2.0.0"
   }
 }

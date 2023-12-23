@@ -1,0 +1,23 @@
+{
+  "name": "@repo/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./tailwind": "./tailwind.config.js",
+    "./postcss": "./postcss.config.js",
+    "./cn": "./cn.ts",
+    "./cva": "./cva.ts"
+  },
+  "dependencies": {
+    "tailwindcss-animate": "^1.0.6",
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.13.2",
+    "class-variance-authority": "^0.6.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "tailwindcss": "^3.3.5",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  }
+}
