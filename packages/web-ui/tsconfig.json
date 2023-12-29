@@ -4,6 +4,7 @@
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "baseUrl": ".",
-    "lib": ["es2016", "dom"]
+    "lib": ["es2016", "dom"],
+    "downlevelIteration": true
   }
 }
