@@ -3,9 +3,6 @@
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
-    "target": "ES2016",
-    "baseUrl": ".",
-    "lib": ["es2016", "dom"],
-    "downlevelIteration": true
+    "baseUrl": "."
   }
 }
