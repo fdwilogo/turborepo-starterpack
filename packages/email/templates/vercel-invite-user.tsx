@@ -14,7 +14,7 @@ import {
   Section,
   Tailwind,
   Text,
-} from '@react-email/components'
+} from '../components'
 
 interface VercelInviteUserEmailProps {
   username?: string

@@ -1,11 +1,8 @@
 {
   "extends": "@repo/tsconfig/react-library.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "types": ["@repo/tsconfig/process-env.d.ts"]
   },
-  "include": ["."],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts", "**/*.json"],
   "exclude": ["dist", "build", "node_modules"]
 }

@@ -1,23 +1,28 @@
 {
   "name": "@repo/tailwind-config",
   "version": "0.0.0",
-  "private": true,
-  "exports": {
-    "./tailwind": "./tailwind.config.js",
-    "./postcss": "./postcss.config.js",
-    "./cn": "./cn.ts",
-    "./cva": "./cva.ts"
+  "main": "index.cjs",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf node_modules"
   },
+  "files": [
+    "cn.ts",
+    "cva.ts"
+  ],
   "dependencies": {
-    "tailwindcss-animate": "^1.0.6",
-    "clsx": "^1.2.1",
-    "tailwind-merge": "^1.13.2",
-    "class-variance-authority": "^0.6.0"
+    "autoprefixer": "^10.4.13",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "postcss": "^8.4.32",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "3.3.2",
+    "tailwindcss-animate": "^1.0.5"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "tailwindcss": "^3.3.5",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24"
+    "@tailwindcss/typography": "^0.5.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

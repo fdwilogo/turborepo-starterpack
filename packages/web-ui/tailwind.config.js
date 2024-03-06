@@ -1,8 +1,12 @@
-const config = require('@repo/tailwind-config/tailwind')
+/* eslint-disable @typescript-eslint/no-var-requires */
+const baseConfig = require('@repo/tailwind-config');
 
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ['class'],
-  content: ['./src/**/*.tsx'],
-  ...config,
-}
+  ...baseConfig,
+  content: [
+    ...baseConfig.content,
+    './primitives/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './lib/**/*.{ts,tsx}',
+  ],
+};

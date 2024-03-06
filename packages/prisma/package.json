@@ -1,0 +1,28 @@
+{
+  "name": "@repo/prisma",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "prisma generate",
+    "format": "prisma format",
+    "clean": "rimraf node_modules",
+    "prisma:generate": "prisma generate",
+    "studio": "prisma studio",
+    "prisma:migrate:deploy": "prisma migrate deploy",
+    "prisma:migrate:dev": "prisma migrate dev",
+    "prisma:push": "prisma db push --skip-generate"
+  },
+  "dependencies": {
+    "@prisma/client": "5.4.2",
+    "dotenv": "^16.3.1",
+    "dotenv-cli": "^7.3.0",
+    "prisma": "5.4.2",
+    "ts-pattern": "^5.0.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "5.2.2"
+  }
+}

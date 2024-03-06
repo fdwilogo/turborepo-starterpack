@@ -39,6 +39,7 @@ export default function Page() {
 
   return (
     <main>
+      <p>{process.env.NEXT_PUBLIC_DATABASE_URL}</p>
       <p>Testing page</p>
 
       <p>You should see a red button below when starting</p>

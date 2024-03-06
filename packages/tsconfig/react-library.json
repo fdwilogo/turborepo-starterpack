@@ -1,18 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Next.js",
+  "display": "React Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "plugins": [{ "name": "next" }],
-    "allowJs": true,
-    "declaration": false,
-    "declarationMap": false,
-    "incremental": true,
+    "alwaysStrict": true,
     "jsx": "preserve",
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "noEmit": true,
-    "resolveJsonModule": true,
-    "target": "ES2016"
+    "declaration": false,
+    "declarationMap": false,
+    "resolveJsonModule": true
   }
 }

@@ -1,5 +1,9 @@
 {
-  "extends": "@repo/typescript-config/base.json",
-  "include": ["./cn.ts"],
+  "extends": "@repo/tsconfig/base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+  },
+  "include": ["**/*.cjs", "**/*.js"],
   "exclude": ["dist", "build", "node_modules"]
 }

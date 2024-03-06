@@ -8,15 +8,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0",
-    "clean": "rm -rf .next .turbo node_modules"
+    "clean": "rimraf .next node_modules"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
-    "@repo/database": "workspace:*",
-    "@repo/react-email": "workspace:*",
+    "@repo/prisma": "workspace:*",
+    "@repo/email": "workspace:*",
     "@repo/tailwind-config": "workspace:*",
     "@repo/web-ui": "workspace:*",
-    "defer": "workspace:*",
+    "@repo/defer": "workspace:*",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.0.4",
     "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
     "@types/eslint": "^8.44.9",
     "@types/node": "^17.0.45",
     "@types/react": "^18.2.45",

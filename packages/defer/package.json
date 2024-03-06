@@ -1,10 +1,13 @@
 {
-  "name": "defer",
+  "name": "@repo/defer",
   "private": true,
+  "scripts": {
+    "clean": "rimraf node_modules"
+  },
   "dependencies": {
     "@defer/client": "^1.14.1",
-    "@repo/database": "workspace:*",
-    "@repo/react-email": "workspace:*",
+    "@repo/prisma": "workspace:*",
+    "@repo/email": "workspace:*",
     "@types/react": "^18.2.45",
     "react": "^18.2.0",
     "resend": "^2.0.0"
